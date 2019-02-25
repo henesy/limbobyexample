@@ -1,10 +1,14 @@
 # Limbo by Example
 
-Programming examples in the spirit of [gobyexample](https://github.com/mmcgrana/gobyexample), but targeted to the Limbo programming language. 
+These are programming examples in the spirit of [gobyexample](https://github.com/mmcgrana/gobyexample), but targeted to the Limbo programming language. 
 
-These exercises are tested on the [purgatorio](http://code.9front.org/hg/purgatorio/) fork of the Inferno operating system.
+These examples are tested on the [purgatorio](http://code.9front.org/hg/purgatorio/) fork of the Inferno operating system.
 
-The `;` rune in examples indicates a command to be run from the Inferno sh(1) shell. 
+Examples will, if they reference lines in source within an explanation, utilize a plumbable string (see: plumb(1)) which indicates the line - or range of lines - which the explanation references.
+
+Examples are composed in acme(1) which allows you to right click these strings to jump to the relevant source lines. 
+
+The `;` rune indicates a command to be run from the Inferno sh(1) shell. 
 
 ## Building
 
