@@ -30,3 +30,4 @@ You could then run said file with:
 - [Inferno Programming with Limbo](http://www.gemusehaken.org/ipwl/)
 - [A Descent into Limbo](http://doc.cat-v.org/inferno/4th_edition/limbo_language/descent)
 - [Limbo Programming](http://www.vitanuova.com/inferno/papers/limbomore.html)
+- [Inferno Lab](https://github.com/caerwynj/inferno-lab/)
