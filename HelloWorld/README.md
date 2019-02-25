@@ -15,7 +15,7 @@ The `implement` keyword tells us the name of the module being defined. This file
 	include "sys.m";
 	include "draw.m";
 
-The `include` keyword provides the modules which we can load and unload from. As per limbo(1), the current working directory is searched, then `/modules`/, for valid module files to match the `include` statements. 
+The `include` keyword provides the modules which we can load and unload from. As per limbo(1), the current working directory is searched, then `/modules/`, for valid module files to match the `include` statements. 
 
 ### hello.b:6,8
 
