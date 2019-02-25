@@ -23,3 +23,10 @@ You could then run said file with:
 ## Index
 
 [Hello World](./HelloWorld)
+
+## References
+
+- [The Limbo Programming Language](http://doc.cat-v.org/inferno/4th_edition/limbo_language/limbo)
+- [Inferno Programming with Limbo](http://www.gemusehaken.org/ipwl/)
+- [A Descent into Limbo](http://doc.cat-v.org/inferno/4th_edition/limbo_language/descent)
+- [Limbo Programming](http://www.vitanuova.com/inferno/papers/limbomore.html)
