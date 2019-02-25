@@ -65,6 +65,7 @@ Strings can be concatenated via `+` and `+=` (not shown).
 	0
 	2
 	2.187500
+	1
 	String
 	ring!
 	inferno os 
