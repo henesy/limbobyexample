@@ -9,6 +9,8 @@ Limbo has a variety of primitive types available and possesses the ability to co
 	sys: Sys;
 	print, sprint: import sys;
 
+The name `sys` is declared as type `Sys`. If you are defining a type for a name, the format is: `varname: typename`. 
+
 The `import` statement allows you to define a local name which is tied to a name in another space. That is, the `print` name becomes equivalent to `sys->print`. 
 
 ### values.b:16,19
