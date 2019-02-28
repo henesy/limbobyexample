@@ -8,6 +8,8 @@ Examples will, if they reference lines in source within an explanation, utilize 
 
 Examples are composed in acme(1) which allows you to right click these strings to jump to the relevant source lines. 
 
+If you'd like to try Inferno without installing, I recommend trying Pete's on-demand VNC: http://tryinferno.reverso.be/
+
 The `;` rune indicates a command to be run from the Inferno sh(1) shell. 
 
 ## Building
