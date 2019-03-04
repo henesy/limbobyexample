@@ -2,7 +2,7 @@
 
 Arrays in Limbo are dynamic and indexed by 0. They can be initialized providing a size, or declared and initialized in two separate statements if no size is specified. 
 
-Disclaimer: I don't like this example very much, but I'm not sure how to shore it up. The less on here is to use lists.
+Disclaimer: I don't like this example very much, but I'm not sure how to shore it up. The lesson here is to use lists.
 
 ## Source
 
