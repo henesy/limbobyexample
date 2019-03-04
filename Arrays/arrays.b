@@ -84,7 +84,10 @@ init(nil: ref Draw->Context, nil: list of string) {
 	print("]\n\n");
 
 	# Buf
-	buf := array[10] of {* => byte 3};
+	buf := array[10] of {
+		0 to 2 => byte 4,
+		* => byte 3
+	};
 
 	print("Len buf: %d\n", len buf);
 
@@ -95,8 +98,6 @@ init(nil: ref Draw->Context, nil: list of string) {
 
 	# Two
 	two := array[4] of list of (string, string);
-
-	#two = array[4] of list of (string, string);
 
 	two[0] = ("ducks", "quack") :: two[0];
 

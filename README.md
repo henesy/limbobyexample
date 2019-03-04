@@ -34,6 +34,7 @@ You could then run said file with:
 - [Loops](./Loops)
 - [If Else](./If-Else)
 - [Switch Case](./Switch)
+- [Arrays](./Arrays)
 
 ## References
 
