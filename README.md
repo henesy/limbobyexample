@@ -33,6 +33,7 @@ You could then run said file with:
 - [Constants](./Constants)
 - [Loops](./Loops)
 - [If Else](./If-Else)
+- [Switch Case](./Switch)
 
 ## References
 
