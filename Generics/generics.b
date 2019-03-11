@@ -73,14 +73,29 @@ init(nil: ref Draw->Context, nil: list of string) {
 	smiley := "☺";
 	frowny := ":(";
 
+	# Format is: Adt[Type].PickTag(fields...)
 	sword := ref Word[Int].String(Int(9), smiley);
 
-	# Format is: Adt[Type].PickTag(fields...)
 	words = sword :: words;
 	words = ref Word[Int].String(Int(7), frowny) :: words;
 
 	if(ismember(sword, words))
 		print("Found %d!\n", sword.w.d);
+
+	backwords := rev(words);
+
+	print("Head was: %s\nHead is: %s\n", (hd words).s, (hd backwords).s);
+
+	strings: list of string;
+	strings = "hi" :: strings;
+	strings = "hello" :: strings;
+
+	# plist is a `list of (string, ref Word.String)`
+	plist := pair(strings, words);
+
+	(str, word) := hd plist;
+
+	print("Head of plist: ( %s, { %s, %d } )\n", str, word.s, word.w.d);
 
 	exit;
 }
@@ -117,7 +132,8 @@ isspace(c: int): int {
 # Checks if x is a member of l
 ismember[T](x: T, l: list of T): int
 	for {
-		T =>	eq:	fn(a, b: T): int;
+		T =>
+			eq:	fn(a, b: T): int;
 	}
 {
 	for(; l != nil; l = tl l)
