@@ -14,12 +14,24 @@ Generics: module {
 	init: fn(nil: ref Draw->Context, nil: list of string);
 };
 
+# Polymorphic type
 Rd: adt[T] {
 	t:	ref Iobuf;
 	ws:	fn(rd: self ref Rd[T]): int;
 };
 
-# Polymorphic type
+Num: adt {
+	pick {
+		String =>
+			s: string;
+		Int =>
+			d: int;
+	}
+
+	stringify: fn(v: self ref Num): string;
+};
+
+# Polymorphic and pick-tagged type
 Word: adt[T] {
 	w: T;
 
@@ -50,12 +62,18 @@ init(nil: ref Draw->Context, nil: list of string) {
 	c := rd.ws();
 	print("Broke on '%c'\n", c);
 
+	d := ref Num.Int(5);
+	s := ref Num.String("Five");
+
+	print("%s\n", d.stringify());
+	print("%s\n", s.stringify());
+
 	words: list of ref Word[Int].String;
 
 	smiley := "☺";
 	frowny := ":(";
 
-	sword := ref Word[Int].String(Int(5), smiley);
+	sword := ref Word[Int].String(Int(9), smiley);
 
 	# Format is: Adt[Type].PickTag(fields...)
 	words = sword :: words;
@@ -78,6 +96,17 @@ Rd[T].ws(rd: self ref Rd[T]): int {
 Word[T].eq(a, b: ref Word): int
 {
 	return a.w == b.w;	# This is a shallow comparison, don't rely on this
+}
+
+Num.stringify(v: self ref Num): string {
+	pick xv := v {
+	String =>
+		return xv.s;
+	Int =>
+		return string xv.d;
+	* =>
+		raise "type error";
+	}
 }
 
 # Matches whitespace characters
