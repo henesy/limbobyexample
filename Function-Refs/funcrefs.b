@@ -47,10 +47,10 @@ init(nil: ref Draw->Context, nil: list of string) {
 
 	c := 0;
 
-	if(choose(c)("quack", "quack") <= 0)
-		print("quack ≤ quack\n");
+	if(choose(c)("quack", "quack") >= 0)
+		print("quack ≥ quack\n");
 	else
-		print("quack > quack\n");
+		print("quack < quack\n");
 
 	exit;
 }

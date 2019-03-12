@@ -36,6 +36,7 @@ You could then run said file with:
 - [Switch Case](./Switch)
 - [Arrays](./Arrays)
 - [Functions](./Functions)
+- [Function References](./Function-Refs)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
 
 ## References
