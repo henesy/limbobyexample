@@ -38,6 +38,7 @@ You could then run said file with:
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
+- [Exceptions](./Exceptions)
 
 ## References
 
