@@ -43,6 +43,7 @@ You could then run said file with:
 ## References
 
 - [The Limbo Programming Language](http://doc.cat-v.org/inferno/4th_edition/limbo_language/limbo)
+- [Addendum to The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/addendum.pdf)
 - [Inferno Programming with Limbo](http://www.gemusehaken.org/ipwl/)
 - [A Descent into Limbo](http://doc.cat-v.org/inferno/4th_edition/limbo_language/descent)
 - [Limbo Programming](http://www.vitanuova.com/inferno/papers/limbomore.html)
