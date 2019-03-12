@@ -92,7 +92,7 @@ The `pair()` function allows two separate types `T`, indicated as `T1` and `T2`.
 - Try changing the pick tag for one of the instances of `Num`, how does `stringify()` behave?
 - Can you find a way to make the `eq()` function do a deep comparison of `Int`'s?
 - Try removing the `.String` from the `words` definition, what happens?
-- Try removing `ref anywhere, see what happens.
+- Try removing `ref` anywhere, see what happens.
 
 ## References
 
