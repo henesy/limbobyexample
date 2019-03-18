@@ -39,6 +39,7 @@ You could then run said file with:
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
 - [Abstract Data Types](./ADTs)
+- [Modules](./Modules)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
 - [Exceptions](./Exceptions)
 

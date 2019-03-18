@@ -6,5 +6,6 @@ TARG=\
 	modules.dis\
 	persons.dis\
 	towns.dis\
+	util.dis\
 
 </mkfiles/mkdis
