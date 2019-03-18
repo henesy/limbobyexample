@@ -28,6 +28,8 @@ You could then run said file with:
 
 ## Index
 
+Core language functionality:
+
 - [Hello World](./HelloWorld)
 - [Values](./Values)
 - [Constants](./Constants)
