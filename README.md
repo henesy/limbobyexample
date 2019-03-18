@@ -38,6 +38,7 @@ Core language functionality:
 - [Switch Case](./Switch)
 - [Arrays](./Arrays)
 - [Slices](./Slices)
+- [Lists](./Lists)
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
 - [Spawn](./Spawn)
