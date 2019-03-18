@@ -6,9 +6,40 @@ Disclaimer: At the time of writing I am not exceptionally well-versed with modul
 
 ## Source
 
-### 
+### persons.m:1,11
 
 
+
+Function definitions:
+
+- init()	 ­ persons.b:7,9
+- mkperson() ­ persons.b:11,13
+- getpop()	 ­ persons.b:15,18
+
+Note: In a way, a module definition acts as an interface which dictates which functions, variables, and types are accessible from outside the module's implementation proper. 
+
+### towns.m:1,14
+
+
+
+Function definitions:
+
+- init()	­ towns.b:5,7
+- mktown()	­ towns.b:9,11
+
+### modules.b:25,29
+
+
+
+### modules.b:31,39
+
+
+
+### modules.b:41,45
+
+
+
+Note: The type `Person` is imported at modules.b:13.
 
 ## Demo
 
