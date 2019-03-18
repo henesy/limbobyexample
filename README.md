@@ -47,6 +47,10 @@ Core language functionality:
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
 - [Exceptions](./Exceptions)
 
+Standard library modules:
+
+- [Command-Line Arguments](./Args)
+
 ## References
 
 - [The Limbo Programming Language](http://doc.cat-v.org/inferno/4th_edition/limbo_language/limbo)
