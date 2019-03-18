@@ -1,0 +1,10 @@
+</mkconfig
+
+DISBIN = ./
+
+TARG=\
+	modules.dis\
+	persons.dis\
+	towns.dis\
+
+</mkfiles/mkdis
