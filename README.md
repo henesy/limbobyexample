@@ -35,6 +35,7 @@ You could then run said file with:
 - [If Else](./If-Else)
 - [Switch Case](./Switch)
 - [Arrays](./Arrays)
+- [Slices](./Slices)
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
