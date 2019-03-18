@@ -38,6 +38,7 @@ You could then run said file with:
 - [Slices](./Slices)
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
+- [Abstract Data Types](./ADTs)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
 - [Exceptions](./Exceptions)
 
