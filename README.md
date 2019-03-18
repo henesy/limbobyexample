@@ -38,6 +38,8 @@ You could then run said file with:
 - [Slices](./Slices)
 - [Functions](./Functions)
 - [Function References](./Function-Refs)
+- [Spawn](./Spawn)
+- [Channels](./Channels)
 - [Abstract Data Types](./ADTs)
 - [Modules](./Modules)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
