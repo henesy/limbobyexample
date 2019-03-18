@@ -1,4 +1,4 @@
-# ADT's
+# Abstract Data Types (ADT's)
 
 Limbo supports Abstract Data Types (ADT's). These are analogous, but not equivocal to, structs in C and Go. 
 

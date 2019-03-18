@@ -40,7 +40,7 @@ You could then run said file with:
 - [Function References](./Function-Refs)
 - [Spawn](./Spawn)
 - [Channels](./Channels)
-- [Abstract Data Types](./ADTs)
+- [Abstract Data Types (ADT's)](./ADTs)
 - [Modules](./Modules)
 - [Generics, Picks, and Interfaces (kind of)](./Generics)
 - [Exceptions](./Exceptions)
